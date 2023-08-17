@@ -1,0 +1,50 @@
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 600px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 16px;
+    border-radius: 12px;
+}
+.input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  input:focus {
+    border: 2px solid rgba(15, 207, 9, 0.671);
+  }
+ 
+  .formInputText {
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+  .errorMessage {
+    color: #eb6440;
+  }
+  .btnSubmit{
+    background-color:#497174;
+    width: 100%;
+    border: none;
+    height: 40px;
+    margin-top: 10px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .btnSubmit p{
+    margin: 0;
+  }
+  .register{
+    text-align: center;
+  }
+  .register span{
+    cursor: pointer;
+    border-bottom: 1px solid #2b2929c7;
+  }

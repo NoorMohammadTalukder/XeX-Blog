@@ -1,0 +1,57 @@
+table{
+    width: 100%;
+    /* border: 1px solid #3b373798; */
+}
+th{
+    /* background-color: #241468; */
+    color: #EA1179;
+}
+.tr td{
+    border-bottom: 1px solid #3b373798;
+    color: #241468;
+    text-align: center;
+}
+
+.btnDetails {
+    border: none;
+    width: 100px;
+    height: 45px;
+    background-color: #CECE5A;
+    color: #3b373798;
+    margin-right: 8px;
+    border-radius: 4px;
+ }
+.btnUpdate {
+    border: none;
+    width: 100px;
+    height: 45px;
+    background-color: #FFE17B;
+    color: #3b373798;
+    margin-right: 8px;
+    border-radius: 4px;
+
+  }
+.btnDelete {
+    border: none;
+    width: 100px;
+    height: 45px;
+    background-color: #C51605;
+    color: #3b373798;
+    margin-right: 8px;
+    border-radius: 4px;
+
+  }
+  @media only screen and (max-width: 688px) {
+    .btnDetails {
+       margin-bottom: 8px;
+     }
+    .btnUpdate {
+        margin-bottom: 8px;
+    
+      }
+    .btnDelete {
+        margin-bottom: 8px;
+    
+      }
+  }
+  

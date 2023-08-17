@@ -1,0 +1,19 @@
+
+.pt1 {
+    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  border: none;
+  width: 100px;
+  height: 45px;
+  background-color: #df1677;
+  color: #fff;
+}
+.btn {
+  color: #fff;
+  cursor: pointer;
+}
+
